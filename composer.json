@@ -1,0 +1,21 @@
+{
+    "name": "mog/yii2-mog-wiki",
+    "description": "Yii2 Wiki Extension",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"," wiki"," content"],
+    "license": "GPL-3.0+",
+    "authors": [
+        {
+            "name": "Mikhail Glazkov",
+            "email": "miha.o.g@yandex.ru"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "mog\\wiki\\": ""
+        }
+    }
+}
